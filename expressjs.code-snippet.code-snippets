@@ -1,0 +1,19 @@
+{
+  "Basic Express Js Code": {
+    "prefix": "guiExpr",
+    "body": [
+      "import express from 'express.js';",
+      "import cors from 'cors';",
+      "",
+      "const app = express();",
+      "const port = 5000",
+      "",
+      "app.use(cors())",
+      "app.get('/route', (req,res) => {",
+      "      res.send('Hello Gui!');",
+      "})",
+      "app.listen(port)"
+    ],
+    "description": "Basic code for Express Js"
+  }
+}
